@@ -1,0 +1,48 @@
+html {scroll-behavior: smooth;}
+body{
+    background: #000;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Muli', sans-serif;
+    overflow-x: hidden;
+    /* padding-top: 50px; */
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    font-family: 'Muli', sans-serif;
+    text-transform: capitalize;
+}
+h1, .h1 {
+    font-size: 40px; 
+    color: #fff;
+}
+h2, .h2 {
+    font-size: 35px; 
+    color: #fff;
+}
+
+h3, .h3 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+}
+
+h4, .h4{
+    font-size: 20px; 
+    color: #fff;
+    /* line-height: 30px; */
+}
+
+p,li {
+    color: #fff;
+    font-size: 15px;
+}
+a {
+    color: #444; 
+    font-size: 15px;
+    text-decoration: none; 
+    transition: 0.3s;
+    font-family: 'Muli', sans-serif;
+}
+
+

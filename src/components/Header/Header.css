@@ -1,0 +1,43 @@
+.bg-orange {
+  background-color: #f6a317 !important;
+}
+
+.nav-link{
+  text-transform: uppercase;
+  color: #000;
+  font-size: 14px;
+}
+
+a:not([href]) {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbar-nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #000;
+}
+
+.logo-text{
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  text-transform: capitalize;
+}
+
+
+@media only screen and (max-width: 600px) {
+ .home_nav{
+   padding-left: 25px;
+ }
+
+}
+
+.navbar {
+  padding: 0;
+}

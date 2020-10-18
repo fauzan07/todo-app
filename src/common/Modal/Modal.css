@@ -1,0 +1,41 @@
+.closebutton{
+    padding: 5px 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    float: right;
+}
+
+.modalbody{
+height: 400px;
+text-align: center;
+position: fixed; 
+background-color:#000;
+z-index: 500;
+left: 15%;
+top: 10%; 
+box-sizing: border-box;
+width: 70%;
+overflow-Y: scroll;
+border: 1px solid #fff;
+}
+
+/* .bg-black{
+    background-color: #000;
+} */
+
+@media only screen and (max-width:500px){
+
+    .modalbody{
+        height: 480%;
+        width: 90%;
+        overflow-Y: scroll;
+        position: relative;
+        left: 20px;
+        bottom: 400px;
+        }
+    
+  }
+
+
