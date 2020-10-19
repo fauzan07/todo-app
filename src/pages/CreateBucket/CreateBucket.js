@@ -60,7 +60,7 @@ const CreateBucket = (props) => {
             
                 <div className="col-lg-10">
                     <div className="border shadow p-4">
-                    <h2 className="pb-3 text-white">Create a Board</h2>
+                    <h2 className="pb-3 text-white">Create a Bucket</h2>
                     {formIncompleteError ?<div class="alert alert-danger" role="alert">Kindly complete the form before adding the Bucket</div> : null}
                     <form  onSubmit={addBucketToDBHandler}>
                     <div className="form-group">
@@ -68,7 +68,7 @@ const CreateBucket = (props) => {
                         <input id="bucketname" type="text" name="bucketname" class="form-control" placeholder="eg Frontend Bucket" ref={NameOfBuckets}  onChange={(event) => setNameOfBuckets(event.target.value)}/>
                     </div>
                     <div class="form-group">
-                        <label htmlFor="exampleInputPassword1" className="text-white">Password</label>
+                        <label htmlFor="exampleInputPassword1" className="text-white">Enter Date</label>
                         <input id="bdate" type="date" name="bdate" className="form-control" ref={BucketDate}  onChange={(event) => setBucketDates(event.target.value)}/>
                     </div>
                     <button type="submit" id="createBucket" className="btn btn-warning" disabled={formComplete}>Submit</button>
